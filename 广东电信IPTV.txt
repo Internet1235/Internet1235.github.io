@@ -1,6 +1,6 @@
 广东,#genre#
 广东卫视,http://iptv.cmath.site:8899/rtp/239.77.0.2:5146
-广东卫视,http://iptv.cmath.site:8899/rtp/239.77.1.2:5146
+广东卫视,高清,http://iptv.cmath.site:8899/rtp/239.77.1.2:5146
 广东卫视高清,http://iptv.cmath.site:8899/rtp/239.77.1.19:5146
 广东卫视高清,http://iptv.cmath.site:8899/rtp/239.77.1.152:5146
 广东卫视高清,http://iptv.cmath.site:8899/rtp/239.77.0.232:5146
