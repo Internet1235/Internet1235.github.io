@@ -137,7 +137,6 @@ HZTV2高清,http://iptv.cmath.site:8899/rtp/239.77.1.233:5146
 肇庆生活服务高清,http://iptv.cmath.site:8899/rtp/239.253.43.2:5146
 河源综合,http://iptv.cmath.site:8899/rtp/239.253.43.215:5146
 河源综合高清,http://iptv.cmath.site:8899/rtp/239.253.43.213:5146
-河源公共,http://iptv.cmath.site:8899/rtp/239.253.43.216:5146
 河源公共高清,http://iptv.cmath.site:8899/rtp/239.253.43.214:5146
 汕头综合,http://iptv.cmath.site:8899/rtp/239.253.43.30:5146
 汕头综合高清,http://iptv.cmath.site:8899/rtp/239.77.1.130:5146
@@ -148,7 +147,6 @@ HZTV2高清,http://iptv.cmath.site:8899/rtp/239.77.1.233:5146
 汕头文旅体育,http://iptv.cmath.site:8899/rtp/239.253.43.44:5146
 汕头文旅体育高清,http://iptv.cmath.site:8899/rtp/239.77.1.132:5146
 汕头文旅体育高清,http://iptv.cmath.site:8899/rtp/239.253.43.47:5146
-清远新闻综合,http://iptv.cmath.site:8899/rtp/239.253.43.31:5146
 清远新闻综合高清,http://iptv.cmath.site:8899/rtp/239.253.43.33:5146
 清远公共,http://iptv.cmath.site:8899/rtp/239.253.43.32:5146
 清远公共高清,http://iptv.cmath.site:8899/rtp/239.253.43.34:5146
@@ -479,12 +477,6 @@ DOXTV,http://iptv.cmath.site:8899/rtp/239.77.1.155:5146
 生态环境,http://iptv.cmath.site:8899/rtp/239.253.43.42:5146
 车迷,http://iptv.cmath.site:8899/rtp/239.77.1.203:5146
 车迷,http://iptv.cmath.site:8899/rtp/239.253.43.41:5146
-GTV网络棋牌,http://iptv.cmath.site:8899/rtp/239.253.43.38:5146
-新动漫,http://iptv.cmath.site:8899/rtp/239.77.1.136:5146
-游戏竞技,http://iptv.cmath.site:8899/rtp/239.77.0.211:5146
-游戏竞技,http://iptv.cmath.site:8899/rtp/239.77.1.112:5146
-靓妆,http://iptv.cmath.site:8899/rtp/239.77.0.212:5146
-靓妆,http://iptv.cmath.site:8899/rtp/239.77.1.118:5146
 求索纪录高清,http://iptv.cmath.site:8899/rtp/239.77.0.21:5146
 求索生活高清,http://iptv.cmath.site:8899/rtp/239.77.0.153:5146
 求索科学高清,http://iptv.cmath.site:8899/rtp/239.77.0.240:5146
