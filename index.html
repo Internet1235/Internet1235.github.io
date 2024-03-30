@@ -9,24 +9,48 @@
         }
 
 
-        h1{
+        #png h1{
             color:burlywood;
             font-size:50px;
             
+            
         }
 
-        p{
+        #png p{
             color:burlywood;
             font-size:30px;
+            
         }
 
-        img{
-            width: 20%;
+        .laohao{
+            width: 50%;
+            opacity: 0;
         }
-
+        
+        .laohao:hover{
+            transform: scale(1.2);
+        }
         
         div{
             text-align: center;
+            position: absolute;
+            width: 300px;
+            height: 500px;
+            left:40%;
+            top:5%;
+        }
+        
+        #png:hover{
+            background: rgb(255,255,255,0.3);
+            transition: all 0.5s;
+            border-radius: 15px;
+        }
+
+        #png:hover img{
+            background: rgb(255,255,255,0.1);
+            opacity: 1;
+            transition: all 0.5s;
+            border-radius: 15px;
         }
 
         #guide{
@@ -42,19 +66,17 @@
         
         a{
             text-decoration: none;
-
         }
         a:hover{
             color: rgb(244,167,32);
         }
-
     </style>
 </head>
 
 <body>
-    <div>
+    <div id="png">
         <a href="https://www.douyin.com/user/MS4wLjABAAAABC0GdZbuL8apojKd0ildQm0JXSlJFvp4hHdxop9IEUg">
-            <img src = '图片/laohao.jpg'>
+            <img src = '图片/laohao.jpg' class="laohao">
         </a>
         <h1>Hello World</h1>
         <p>我是王德发</p>
@@ -64,10 +86,6 @@
         <h3><a href="https://www.douyin.com/user/MS4wLjABAAAABC0GdZbuL8apojKd0ildQm0JXSlJFvp4hHdxop9IEUg">抖音</a></h3>
         <h3><a href="https://space.bilibili.com/328538733">bilibili</a></h3>
     
-
-   
-    
-
 </body>
 
 </html>
