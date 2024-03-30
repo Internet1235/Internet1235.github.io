@@ -1,0 +1,2119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html怎么居中图片-前端问答-PHP中文网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="HTML（Hypertext Markup Language）是创建Web页面的基本语言之一。在Web界面设计中，经常会用到图像，那么如何在HTML中居中图片呢？以下是3种方法，分别使用CSS、HTML表格、HTML5标签实现。方法一：使用CSS居中图片可以使用CSS的margin属性来实现垂直和水平居中图像。步骤：1. 在HTML中插入一张图片：```&lt;img src=&quot;图片"/>
+    <meta property="article:author" content="王林" />
+    <meta property="article:published_first" content=",https://www.php.cn/faq/541005.html" />
+    <meta name="mobile-agent" content="format=html5;url=https://m.php.cn/faq/541005.html">
+<meta http-equiv="Cache-Control" content="no-transform " />
+<link rel="shortcut icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="/static/layui/css/layui.css?1">
+<link rel="stylesheet" href="/static/css/style.min.css?5.2.86">
+<link rel="stylesheet" href="/static/css/init_common.css?1">
+<link href="/static/tankuang.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.php.cn/faq/541005.html">
+<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+<!--[if lt IE 9]>
+<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]--> 
+<script>var is_mobi=navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i)!=null;if(is_mobi){window.location.href="https://m.php.cn/faq/541005.html";}var _czc = _czc || [];_czc.push(["_setAccount", "1280886301"]);</script>
+
+    <link rel="stylesheet" href="/static/css/phpbf.css" />
+    <link href="/static/css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/2023index2.css" rel="stylesheet" type="text/css" />
+    <link href="/static/lhcss/jpk.css" rel="stylesheet" type="text/css" />
+    <link href="/static/layui/css/layui.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/article_common.css" rel="stylesheet" type="text/css" />
+    <script src="/static/js/jquery-1.8.3.min.js"></script>
+    <script src="/static/js/swiper.min.js"></script>
+    <script src="/static/js/common_new.js"></script>
+    <script src="/static/layui/layui.all.js"></script>
+    <script src="/static/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css?1">
+    <link rel="stylesheet" href="/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault1.css">
+    <style type="text/css">.layui-badge-dots{margin-right: 15px;width: 5px;height: 5px;background: #bbb!important;position: relative;display: inline-block;font-size: 12px;text-align: center;background-color: #FF5722;color: #fff;padding: 0;border-radius: 50%;}.relevant{color: #666;}.relevant:hover{color: #bbb}.php-article .detail-content-wrap th{background-color: #e9ecef;}.php-article .detail-content-wrap table{margin-bottom:15px;}.content ul li {list-style: unset;margin-left: 25px;font-size:16px;margin:8px 0 8px 30px;color:#3d464d;}.page ul li{list-style:none;font-size: 14px;margin-left: 0;}.content ul li p{padding:0!important;}.profile-info .layui-icon-auz{padding-left:10px;}.php-article .content h2,.php-article .content h4{padding-left:10px;font-weight:600;font-size:18px;}.wdsyConDiv{margin:0 0 0 15px;}</style>
+    <script type="application/ld+json">{"@context": "https://zhanzhang.baidu.com/contexts/cambrian.jsonld","@id": "https://www.php.cn/faq/541005.html","title": "html怎么居中图片","description": "HTML（Hypertext Markup Language）是创建Web页面的基本语言之一。在Web界面设计中，经常会用到图像，那么如何在HTML中居中图片呢？以下是3种方法，分别使用CSS、HTML表格、HTML5标签实现。方法一：使用CSS居中图片可以使用CSS的margin属性来实现垂直和水平居中图像。步骤：1. 在HTML中插入一张图片：```<img src="图片","images": ["https://img.php.cn/upload/article/202305/16/2023051610370855920.jpg"],"pubDate": "2023-05-16T10:37:08","upDate": "2023-05-16T10:37:08"}</script>
+    <style>
+    .ask_line-container {
+    position: relative;
+    text-align: center;
+    }
+    .ask_line {
+    border-top: 2px solid #fc3930;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    }
+    .ask_text {
+    position: relative;
+    border-radius: 10px;
+    color:#fc3930;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    border:1px solid #fc3930;
+    z-index: 1; /* 提高文字的层级，使其在线的上方显示 */
+    }
+    </style>
+</head>
+<body class="bodyBg wzxq">
+<!--头部-->
+<!--<script src="https://sw.php.cn/hezuo/af4c236904b2069d556e33e73f2aa033.js"></script>-->
+<div class="phpHead" id="phpHead-click" onclick='_czc.push(["_trackEvent", "首页", "头部选项", "点击选中", "", "phpHead"]);'>
+<div class="phpTop">
+    <div class="phpTopIn">
+        <div class="phpTopLeft"></div>
+                    <div class="phpTopRight1" ><a href="javascript:;" title="登录" id="login" class="aWhite">登录</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="javascript:;" title="注册" id="reg" class="aWhite">注册</a></div>
+                <div class="clear"></div>
+    </div>
+</div>
+<div class="phpHeadBg">
+    <div class="phpHeadIn">
+        <div class="phpLogo"><a href="https://www.php.cn/" title="php中文网"></a></div>
+        <ul class="phpNav">
+            <li>
+                <div class="phpNavIn">
+                    <div class="phpNavTitle"><a href="https://www.php.cn/" " title="首页"><h2>首页</h2></a></div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn"  onclick='_czc.push(["_trackEvent", "首页", "导航", "php培训"]);'>
+                    <div class="phpNavTitle"><a href="/k24.html" title="PHP培训"><h2>PHP培训</h2><em>新</em></a></a></div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn ylwTopBox">
+                    <div class="phpNavTitle"><a href="/course.html" target="_blank" title="视频教程"><h2>视频教程</h2><b></b></a></div>
+                    <div class="phpSubnav ylwTopSub">
+                        <a href="/course.html" target="_blank" title="视频课程">视频课程</a>
+                        <a href="/course/type/8/live.html" title="直播课程" target="_blank">直播课程</a>
+                        <a href="/coding.html" title="精品课" target="_blank">精品课<em class="new_icon"></em></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn ylwTopBox">
+                    <div class="phpNavTitle"><a href="/map.html" title="学习路径"><h2>学习路径</h2><b></b></a></div>
+                    <div class="phpSubnav ylwTopSub">
+                        <a href="/course/type/3.html" target="_blank">入门教程</a>
+                        <a href="/map/dugu.html" target="_blank">独孤九贱</a>
+                        <a href="/map/yunv.html" target="_blank">玉女心经</a>
+                        <a href="/toutiao-409221.html" target="_blank">天龙八部</a>
+                        <a href="/course/type/6.html" target="_blank">趣味闯关</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn ylwTopBox">
+                    <div class="phpNavTitle"><a target="_blank" href="/xiazai/" title="资源下载"><h2>资源下载</h2><b></b></a></div>
+                    <div class="phpSubnav ylwTopSub">
+                    <a href="/appmall.html" title="提供低代码开发平台、点单外卖、商城系统等源码">源码市场</a>
+                    <script type="text/javascript" src="https://sw.php.cn/hezuo/0be42317d2b707d8546c59c9a5af6f93.js" ></script>
+                    <a href="/xiazai/gongju" target="_blank" title="PHP工具">工具下载</a>
+                    <a href="/xiazai/tool" target="_blank" title="在线工具">在线工具</a>
+                    <a href="/xiazai/shouce" target="_blank" title="手册下载">手册下载</a>
+                    <a href="/xiazai/learn" target="_blank" title="电子课件">电子课件</a>
+                    <a href="/xiazai/js" target="_blank" title="js特效">js特效</a>
+                    <a href="/xiazai/code" target="_blank" title="网站源码">网站源码</a>
+                    <a href="/xiazai/sucai" target="_blank" title="网站素材">网站素材</a>
+                    <a href="/xiazai/leiku" target="_blank" title="类库下载">类库下载</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn ylwTopBox">
+                    <div class="phpNavTitle"><a href="/article.html" title="技术文章"><h2>技术文章</h2><b></b></a></div>
+                    <div class="phpSubnav ylwTopSub">
+<!--                        <a href="/toutiao.html" target="_blank">头条</a>-->
+                        <a href="/web-designer.html" target="_blank">前端开发</a>
+                        <a href="/be/" target="_blank">后端开发</a>
+                        <a href="/shujuku-tutorials.html" target="_blank">数据库</a>
+                        <a href="/phpkj/" target="_blank">php框架</a>
+                        <a href="/jishu/" target="_blank">每日编程</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn ylwTopBox">
+                    <div class="phpNavTitle"><a href="javascript:;"  " title="社区"><h2>社区</h2><b></b></a></div>
+                    <div class="phpSubnav ylwTopSub">
+                        <a href="/wenda.html" target="_blank">问答</a>
+                        <a href="/blog.html" target="_blank">博客</a>
+                        <a href="/wenda/original.html" target="_blank">文章</a>
+                        <a href="/faq/zt" target="_blank">专题</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn ylwTopBox">
+                    <div class="phpNavTitle2"><a href="javascript:;" title="微信公众号"><b></b><h2>微信公众号</h2></a></div>
+                    <div class="phpSubnav1 ylwTopSub ylwTopSub1">
+                        <img src="https://www.php.cn/static/images/examples/text17.png"/>
+                        <p style="margin-left: 0px;">扫码关注<em>官方订阅号</em></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="phpNavIn ylwTopBox">
+                    <div class="phpNavTitle3"><a href="javascript:;"  " title=""><b></b></a></div>
+                    <div class="phpSubnav ylwTopSub ylwTopSub2 " >
+                        <a href="/dic.html" target="_blank">编程词典</a>
+                        <a href="/app/" target="_blank">APP下载</a>
+                        <a href="https://www.php.cn/appmall.html" title="提供低代码开发平台、点单外卖、商城系统等源码">源码市场</a>
+                    </div>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <div class="phpSerch">
+            <input type="text" value="输入关键词搜索" name="" class="text1" id="key_words" onkeyup="keyup()" onBlur="if(this.value=='') this.value='输入关键词搜索';" onFocus="if(this.value=='输入关键词搜索') this.value='';"/>
+            <input type="submit" value="" onclick="searchs()" class="submit1" name="">
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+</div>
+<!--头部 end-->
+<!--导航-->
+
+<div class="phpBgnav">
+    <ul class="phpBgnavIn">
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='/course/list/29.html'  title="php开发" >php开发</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>前端</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/11.html">HTML</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/12.html">CSS</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/17.html">JavaScript</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/18.html">Vue.js<em class="icon1"></em></a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>后端</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/29.html">PHP<em class="icon1"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/22.html">ThinkPHP</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/23.html">Laravel</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/51.html">MySQL</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/54.html">Redis</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1188.html"   target="_blank" title="php8，我来也"><img src="https://img.php.cn/upload/course/000/000/013/6049da2b3898c385.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1188.html" target="_blank" title="php8，我来也" class="aBlack">php8，我来也</a>
+                                        </h2>
+                                        <p><b></b>84669人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1203.html" target="_blank" title="细说PHP(2021版)第一季"><img src="https://img.php.cn/upload/course/000/000/064/60b4860da91fe302.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1203.html" target="_blank" title="细说PHP(2021版)第一季" class="aBlack">细说PHP(2021版)第一季</a>
+                                        </h2>
+                                        <p><b></b>65727人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1134.html" target="_blank" title="TP6.0 搭建个人博客实战（玉女心经版）"><img src="https://img.php.cn/upload/course/000/000/001/5f606a9a7fe99960.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1134.html" target="_blank" title="TP6.0 搭建个人博客实战（玉女心经版）" class="aBlack">TP6.0 搭建个人博客实战（玉女心经版）</a>
+                                        </h2>
+                                        <p><b></b>82984人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/880.html" target="_blank" title="2018前端入门_HTML5"><img src="https://img.php.cn/upload/course/000/126/153/5aa23f0ded921649.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/880.html" target="_blank" title="2018前端入门_HTML5" class="aBlack">2018前端入门_HTML5</a>
+                                        </h2>
+                                        <p><b></b>467778人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='/course/list/1.html'title="大前端">大前端</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>原生基础</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/11.html">HTML</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/12.html">CSS</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/13.html">HTML5</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/14.html">CSS3</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/17.html">JavaScript</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>框架开发</dt>
+                            <dd>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/19.html" >jQuery</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/18.html" >Vue.js<em class="icon1"></em></a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/21.html" >React</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/20.html" >AngularJS</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/24.html" >Node.js</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/15.html" >BootStrap</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/25.html" >AJAX</a><span>|</span>
+                                <a class="aBlack"  target="_blank" href="https://www.php.cn/course/list/16.html" >Foundation</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+                                <li>
+                                    <span><a href="https://www.php.cn/course/894.html" target="_blank" title="JavaScript极速入门_玉女心经系列"><img src="https://img.php.cn/upload/course/000/126/153/5acc118f11d6b969.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/894.html" target="_blank" title="JavaScript极速入门_玉女心经系列" class="aBlack">JavaScript极速入门_玉女心经系列</a>
+                                        </h2>
+                                        <p><b></b>498837人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/372.html" target="_blank" title="独孤九贱(1)_HTML5视频教程"><img src="https://img.php.cn/upload/course/000/000/001/5d1c6ddbecdb1707.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/372.html" target="_blank" title="独孤九贱(1)_HTML5视频教程" class="aBlack">独孤九贱(1)_HTML5视频教程</a>
+                                        </h2>
+                                        <p><b></b>471966人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/893.html" target="_blank" title="CSS视频教程-玉女心经版"><img src="https://img.php.cn/upload/course/000/126/153/5ab346fc62ce4221.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/893.html" target="_blank" title="CSS视频教程-玉女心经版" class="aBlack">CSS视频教程-玉女心经版</a>
+                                        </h2>
+                                        <p><b></b>256484人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/874.html" target="_blank" title="30分钟学会网站布局"><img src="https://img.php.cn/upload/course/000/000/041/61b8365849424887.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/874.html" target="_blank" title="30分钟学会网站布局" class="aBlack">30分钟学会网站布局</a>
+                                        </h2>
+                                        <p><b></b>152542人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='/course/list/3.html' title="后端开发">后端开发</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>编程语言</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="/course/list/29.html" >PHP<em class="icon1"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/30.html" >Python</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/44.html" >Go</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/36.html" >Java</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/37.html" >C</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/38.html" >C++</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/72.html" >C#</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/49.html" >VBSscript</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/43.html" >Scala</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/42.html" >Lua</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/39.html" >Perl</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/35.html" >Ruby</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/41.html" >JSP</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/60.html" >XML</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/47.html">ASP</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>框架/工具</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/22.html">ThinkPHP<em class="icon2"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/23.html">Laravel</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/40.html">Servlet</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/32.html">Django</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/71.html">ASP.NET</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1086.html" target="_blank" title="Thinkphp6.0正式版视频教程"><img src="https://img.php.cn/upload/course/000/000/015/61adbdb9912b0589.png?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1086.html" target="_blank" title="Thinkphp6.0正式版视频教程" class="aBlack">Thinkphp6.0正式版视频教程</a>
+                                        </h2>
+                                        <p><b></b>224170人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1188.html" target="_blank" title="php8，我来也"><img src="https://img.php.cn/upload/course/000/000/013/6049da2b3898c385.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1188.html" target="_blank" title="php8，我来也" class="aBlack">php8，我来也</a>
+                                        </h2>
+                                        <p><b></b>84669人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/797.html" target="_blank" title="PHP实战天龙八部之微信支付视频教程"><img src="https://img.php.cn/upload/course/000/000/001/5d242759adb88970.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/797.html" target="_blank" title="PHP实战天龙八部之微信支付视频教程" class="aBlack">PHP实战天龙八部之微信支付视频教程</a>
+                                        </h2>
+                                        <p><b></b>139536人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/760.html" target="_blank" title="CI框架30分钟极速入门"><img src="https://img.php.cn/upload/course/000/000/041/61b83b7bb3b9c356.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/760.html" target="_blank" title="CI框架30分钟极速入门" class="aBlack">CI框架30分钟极速入门</a>
+                                        </h2>
+                                        <p><b></b>81804人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='/course/list/4.html' title="数据库">数据库</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>基础入门</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="/course/list/51.html" >MySQL<em class="icon1"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/50.html" >SQL Server</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>进阶学习</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="/course/list/53.html" >MongoDB<em class="icon2"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/52.html" >Oracle</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/54.html" >Redis</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/55.html" >Memcached</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/903.html" target="_blank" title="MySQL权威开发指南（教程）"><img src="https://img.php.cn/upload/course/000/000/015/5d27f2e217a11252.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/903.html" target="_blank" title="MySQL权威开发指南（教程）" class="aBlack">MySQL权威开发指南（教程）</a>
+                                        </h2>
+                                        <p><b></b>85022人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1067.html" target="_blank" title="Redis基础视频课程"><img src="https://img.php.cn/upload/course/000/000/001/5d9c3b3e73e28639.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1067.html" target="_blank" title="Redis基础视频课程" class="aBlack">Redis基础视频课程</a>
+                                        </h2>
+                                        <p><b></b>11944人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/549.html" target="_blank" title="尚观Oracle入门到精通视频教程"><img src="https://img.php.cn/upload/course/000/000/003/5a13d64661b48344.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/549.html" target="_blank" title="尚观Oracle入门到精通视频教程" class="aBlack">尚观Oracle入门到精通视频教程</a>
+                                        </h2>
+                                        <p><b></b>20001人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/662.html" target="_blank" title="PDO操作极速入门,今天你用了吗？"><img src="https://img.php.cn/upload/course/000/000/003/5a3728258bf9f213.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/662.html" target="_blank" title="MPDO操作极速入门,今天你用了吗？" class="aBlack">PDO操作极速入门,今天你用了吗？</a>
+                                        </h2>
+                                        <p><b></b>60816人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='/course/list/5.html' title="移动端">移动端</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>原生开发</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="/course/list/56.html" >Android</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/93.html" >iOS</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>多端开发</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="/course/list/57.html" >Swift</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/74.html" >Flutter</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/58.html" >uni-app<em class="icon2"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/26.html" >小程序<em class="icon1"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="/course/list/59.html" >其他</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1148.html" target="_blank" title="你的第一行UNI-APP代码"><img src="https://img.php.cn/upload/course/000/000/001/5fbb84ba39b3a182.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1148.html" target="_blank" title="你的第一行UNI-APP代码" class="aBlack">你的第一行UNI-APP代码</a>
+                                        </h2>
+                                        <p><b></b>5487人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1224.html" target="_blank" title="Uniapp简爱读书项目开发--第一季"><img src="https://img.php.cn/upload/course/000/000/048/6101014ce7756479.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1224.html" target="_blank" title="Uniapp简爱读书项目开发--第一季" class="aBlack">Uniapp简爱读书项目开发--第一季</a>
+                                        </h2>
+                                        <p><b></b>15007人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1278.html" target="_blank" title="公益直播：Uniapp微信小程序1:1仿饿了么首页"><img src="https://img.php.cn/upload/course/000/000/015/6135ec28800b8372.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1278.html" target="_blank" title="公益直播：Uniapp微信小程序1:1仿饿了么首页" class="aBlack">公益直播：Uniapp微信小程序1:1仿饿了么首页</a>
+                                        </h2>
+                                        <p><b></b>2150人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1343.html" target="_blank" title="Flutter从零到APP上架"><img src="https://img.php.cn/upload/course/000/000/015/619f2c3e6e124804.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1343.html" target="_blank" title="Flutter从零到APP上架" class="aBlack">Flutter从零到APP上架</a>
+                                        </h2>
+                                        <p><b></b>6980人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='https://www.php.cn/course/list/9.html' title="运维开发">运维开发</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>环境使用</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/33.html" title="Linux">Linux<em class="icon2"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/34.html" title="Docker">Docker</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>工具使用</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/82.html" title="Linux">PhpStudy<em class="icon1"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/83.html" title="Linux">Git</a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/84.html" title="Linux">其他工具</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1066.html" target="_blank" title="phpStudy V8 视频教程"><img src="https://img.php.cn/upload/course/000/000/001/5f3dec682f2f7391.png?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1066.html" target="_blank" title="phpStudy V8 视频教程" class="aBlack">phpStudy V8 视频教程</a></h2>
+                                        <p><b></b>194925人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/325.html" target="_blank" title="兄弟连新版Linux视频教程"><img src="https://img.php.cn/upload/course/000/000/003/5a1cf80a3d0e9658.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/325.html" target="_blank" title="兄弟连新版Linux视频教程" class="aBlack">兄弟连新版Linux视频教程</a></h2>
+                                        <p><b></b>359900人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1313.html" target="_blank" title="Git教程(60分钟全程无废话版)"><img src="https://img.php.cn/upload/course/000/000/015/617b8f8af2b97409.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1313.html" target="_blank" title="Git教程(60分钟全程无废话版)" class="aBlack">Git教程(60分钟全程无废话版)</a></h2>
+                                        <p><b></b>1142人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1227.html" target="_blank" title="vscode其实很简单"><img src="https://img.php.cn/upload/course/000/000/015/60ff63eca3586503.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1227.html" target="_blank" title="vscode其实很简单" class="aBlack">vscode其实很简单</a></h2>
+                                        <p><b></b>19058人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='https://www.php.cn/course/list/7.html' title="UI设计">UI设计</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>UI设计</dt>
+                            <dd>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/73.html" title="Axure">Axure<em class="icon1"></em></a><span>|</span>
+                                <a class="aBlack" target="_blank" href="https://www.php.cn/course/list/92.html" title="PS">PS</a>
+
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1344.html" target="_blank" title="AXURE 9视频教程(适合产品经理 交互 产品设计 UI)"><img src="https://img.php.cn/upload/course/000/000/015/61a07dc138c75488.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1344.html" target="_blank" title="AXURE 9视频教程(适合产品经理 交互 产品设计 UI)" class="aBlack">AXURE 9视频教程(适合产品经理 交互 产品设计 UI)</a>
+                                        </h2>
+                                        <p><b></b>3206人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/234.html" target="_blank" title="零基础精通 PS 视频教程"><img src="https://img.php.cn/upload/course/000/000/041/620b728f66dea528.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/234.html" target="_blank" title="零基础精通 PS 视频教程" class="aBlack">零基础精通 PS 视频教程</a>
+                                        </h2>
+                                        <p><b></b>180550人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1064.html" target="_blank" title="16天带你入门UI视频教程"><img src="https://img.php.cn/upload/course/000/000/001/5d9042939674b956.png?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1064.html" target="_blank" title="16天带你入门UI视频教程" class="aBlack">16天带你入门UI视频教程</a>
+                                        </h2>
+                                        <p><b></b>48569人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <span><a href="https://www.php.cn/course/808.html" target="_blank" title="PS技法与切片技术视频教程"><img src="https://img.php.cn/upload/course/000/013/745/5a5c49a500fad658.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/808.html" target="_blank" title="PS技法与切片技术视频教程" class="aBlack">PS技法与切片技术视频教程</a>
+                                        </h2>
+                                        <p><b></b>17603人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="phpBgnavBox  ylwTopBox">
+                <div class="phpBgnavTitle"><a href='https://www.php.cn/course/list/10.html' title="计算机基础">计算机基础</a></div>
+                <div class="phpBgnavSub  ylwTopSub" style="display: none;">
+                    <div class="phpQianIn" style='width:1350px;'>
+                        <dl>
+                            <dt>类库分类</dt>
+                            <dd>
+                                <a href="https://www.php.cn/course/list/85.html" class="aBlack" target="_blank" title="HTTP">HTTP<em class="icon1"></em></a><span>|</span>
+                                <a href="https://www.php.cn/course/list/89.html"  class="aBlack" target="_blank" title="TCP/IP">TCP/IP</a><span>|</span>
+                                <a href="https://www.php.cn/course/list/91.html"  class="aBlack" target="_blank" title="编程基础">编程基础</a>
+                                <div class="clear"></div>
+                            </dd>
+                        </dl>
+                        <div class="phpZxtjBox">
+                            <div class="phpZxtjTitle">最新推荐</div>
+                            <ul class="phpQianList">
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/634.html" target="_blank" title="阿里云环境搭建以及项目上线视频教程"><img src="https://img.php.cn/upload/course/000/000/003/5a013f48b2381757.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/634.html" target="_blank" title="阿里云环境搭建以及项目上线视频教程" class="aBlack">阿里云环境搭建以及项目上线视频教程</a>
+                                        </h2>
+                                        <p><b></b>40936人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1338.html" target="_blank" title="计算机网络概述—程序员必须掌握的基础知识"><img src="https://img.php.cn/upload/course/000/000/015/61973b4252ca8846.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1338.html" target="_blank" title="计算机网络概述—程序员必须掌握的基础知识" class="aBlack">计算机网络概述—程序员必须掌握的基础知识</a>
+                                        </h2>
+                                        <p><b></b>1049人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/1339.html" target="_blank" title="程序员入门必备教程—HTTP协议详解"><img src="https://img.php.cn/upload/course/000/000/015/61974f0bbc63e544.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/1339.html" target="_blank" title="程序员入门必备教程—HTTP协议详解" class="aBlack">程序员入门必备教程—HTTP协议详解</a>
+                                        </h2>
+                                        <p><b></b>750人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+
+                                <li>
+                                    <span><a href="https://www.php.cn/course/765.html" target="_blank" title="Websocket视频教程"><img src="https://img.php.cn/upload/course/000/000/003/5a41f8352f396701.jpg?x-oss-process=image/resize,m_fill,h_80,w_130"/></a></span>
+                                    <div class="phpQianRight">
+                                        <h2><a href="https://www.php.cn/course/765.html" target="_blank" title="Websocket视频教程" class="aBlack">Websocket视频教程</a>
+                                        </h2>
+                                        <p><b></b>32909人学习</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+        <script type="text/javascript" src="https://sw.php.cn/hezuo/11c8913125dba1d888aa0b93dd325762.js" ></script>
+        </li>
+        <li class="bgLastli">
+  <div class="phpVvipSubmit"><a  href="/vip.html" style="margin-left: 25px;" target="_blank"></a></div>
+</li>
+    </ul>
+</div>
+<!--导航-->
+
+<!--大广告-->
+<div style="width: 1380px; margin: 20px auto 28px auto;">
+    <div style="width: 366px; float:right;">
+    <script type="text/javascript" src="https://sw.php.cn/hezuo/3b9196e0b1983a59dac7abde4eb87f5c.js" ></script>
+    </div>
+    <div style="width: 985px; float:left;">
+        <script type="text/javascript" smua="d=p&s=b&u=u2839458&w=985&h=140" src="https://www.nkscdn.com/smu/o.js"></script>
+    </div>
+</div>
+<!--大广告 end-->
+
+<!--主体-->
+<div class="phpscMain wzxqMain" style="clear:both">
+    <div class="phpwzleft">
+        <div class="phpkcSub ">
+            <div class="phpwzQianIn">
+                <img src="/static/images/biaoji.png">
+                <div class="freeSize"><a href="/" title="首页">首页</a> >
+                                        <a href="/web-designer.html" title="phpcn{$data.classify_parent.name}">web前端</a> >
+                                        <a href="/website-design-ask.html " title="正文">前端问答</a> >
+                    正文
+                </div>
+            </div>
+        </div>
+        <div class="wzContent">
+            <div class="wzconTop">
+                <h1 class="wzctTitle">html怎么居中图片</h1>
+                <div class="wzctPerson">
+                    <div class="wzctpleft">
+                        <a href="/member/465014.html" target="_blank" >    <img src="https://img.php.cn/upload/avatar/000/465/014/627b58ba8fa6c600.jpg" /></a>
+                        <div class="wzctplright">
+                            <div class="wzctpltop">
+                                                                    <div class="name">王林</div>
+                                                            </div>
+                            <div class="wzctpldown">
+                                <span style="margin-left:0px; color: #999999;">发布：                                        2023-05-16 10:37:08</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wzctpright">
+                        <div class="wzctpr">原创</div>
+                        <div class="wzctprll">28306人浏览过</div>
+                    </div>
+                </div>
+            </div>
+            <div class="wzconLine"></div>
+			            <div class="php-article">
+                <div class="article-list-left detail-content-wrap content">
+					
+                    <p>html（hypertext markup language）是创建web页面的基本语言之一。在web界面设计中，经常会用到图像，那么如何在html中居中图片呢？</p>
+<p>以下是3种方法，分别使用CSS、HTML表格、HTML5标签实现。</p>
+<p>方法一：使用CSS居中图片</p>
+<p>可以使用CSS的margin属性来实现垂直和水平居中图像。</p>
+<p>步骤：</p>
+<ol><li>在HTML中插入一张图片：</li></ol><div class="code" style="position:relative; padding:0px; margin:0px;"><pre class='brush:php;toolbar:false;'>&lt;img src=&quot;图片路径&quot; alt=&quot;图片描述&quot;&gt;</pre><div class="contentsignin">登录后复制</div></div><ol start="2"><li>在CSS文件中设置img元素的样式</li></ol><div class="code" style="position:relative; padding:0px; margin:0px;"><pre class='brush:php;toolbar:false;'>img {
+  display: block;
+  margin: 0 auto;
+}</pre><div class="contentsignin">登录后复制</div></div><p>解释：</p><ul><li>display: block; 将图片转换为块级元素，使其可以水平居中。</li><li>margin: 0 auto; 用于设置图片的外边距，将左右外边距设置为auto，则图片会在其容器中水平居中。</li></ul><p>方法二：使用HTML表格居中图片</p><p>可以使用HTML的table元素和align属性来实现图片的垂直和水平居中。</p><p>步骤：</p><ol><li>在HTML中创建一个表格：</li></ol><div class="code" style="position:relative; padding:0px; margin:0px;"><pre class='brush:php;toolbar:false;'><table>
+  <tr>
+    <td align="center">
+      &lt;img src=&quot;图片路径&quot; alt=&quot;图片描述&quot;&gt;
+    </td>
+  </tr>
+</table></pre><div class="contentsignin">登录后复制</div></div><ol start="2"><li>表格的align属性设置为“center”：</li></ol><div class="code" style="position:relative; padding:0px; margin:0px;"><pre class='brush:php;toolbar:false;'><table align="center">
+  <tr>
+    <td>
+      &lt;img src=&quot;图片路径&quot; alt=&quot;图片描述&quot;&gt;
+    </td>
+  </tr>
+</table></pre><div class="contentsignin">登录后复制</div></div><p>解释：</p><ul><li><td>元素中的align属性用于设置其内部内容的垂直和水平对齐方式。</li><li>如果对于一个嵌套在一个align属性设置为“center”的<table>元素中的<td>元素添加一个图片，那么该< img>元素会居中显示。</li></ul><p>方法三：使用HTML5标记居中图片</p><p>HTML5引入了一些新的语义标记，例如<article>、<section>、<nav>、<header>和<footer>。可以使用CSS或HTML5的标签来实现图片的垂直和水平居中。</p><p>步骤：</p><ol><li>在HTML中使用< figure>和< figcaption> 标签来创建图片：</li></ol><div class="code" style="position:relative; padding:0px; margin:0px;"><pre class='brush:php;toolbar:false;'><figure>
+  &lt;img src=&quot;图片路径&quot; alt=&quot;图片描述&quot;&gt;
+  <figcaption>图片标题</figcaption>
+</figure></pre><div class="contentsignin">登录后复制</div></div><ol start="2"><li>在CSS样式表中设置< figure>和< img> 标签的样式：</li></ol><div class="code" style="position:relative; padding:0px; margin:0px;"><pre class='brush:php;toolbar:false;'>figure {
+  display: table;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}</pre><div class="contentsignin">登录后复制</div></div><p>解释：</p>
+<ul>
+<li>标记为一个图片创建一个独立的块，可以将标题添加到元素中，而元素是图片的实际标记。</li>
+<li>CSS样式表告诉浏览器把元素作为一个表格呈现，并将其水平居中。</li>
+</ul>
+<p>总结</p>
+<p>通过CSS、HTML表格和HTML5标签，我们可以实现图片在Web设计中的垂直和水平居中的效果。你可以根据实际情况选择最适合你的方法。</p><p>以上就是html怎么居中图片的详细内容，更多请关注php中文网其它相关文章！</p>                   
+                </div>
+                            </div>
+    
+            <!-- <div class="ask_line-container" >
+                <div class="ask_line"></div>
+                <button type="button" class="ask_text test-iframe-handle">
+                没有解决问题？点击使用智能助手
+                </button>
+                <div class="ask_line"></div>
+            </div> -->
+            <div class="community flexRow">
+                <div class="comleft flexRow">
+                    <img src="/static/logo.png" class="comlimg">
+                    <div class="comldiv flexColumn">
+                        <div class="comldup">智能AI问答</div>
+                        <div class="comlddown">PHP中文网智能助手能迅速回答你的编程问题，提供实时的代码和解决方案，帮助你解决各种难题。不仅如此，它还能提供编程资源和学习指导，帮助你快速提升编程技能。无论你是初学者还是专业人士，AI智能助手都能成为你的可靠助手，助力你在编程领域取得更大的成就。</div>
+                    </div>
+                </div>
+                <div class="comright flexRow">
+                    <a onclick="aiask('');" class="comrA aBlack">我要提问</a>
+                </div>
+            </div>
+						<div class="phpwzggBox" style="width: 960px; margin: 20px auto;">
+            <script type="text/javascript" smua="d=p&s=b&u=u2839458&w=960&h=140" src="https://www.nkscdn.com/smu/o.js"></script>
+			</div>
+			            <div  class="wzconlabels">
+                                <div style="display: inline-flex;float: right; color:#333333;">来源：php中文网</div>
+                            </div>
+
+
+            <div class="wzconFx">
+                <a class="wzcf-sc articleICollection " data-id="541005">
+                                            <img src="/static/lhimages/shoucang_2x.png">
+                        <span>收藏</span>
+                                    </a>
+
+                <a  class="wzcf-dz articlegoodICollection " data-id="541005">
+                                            <img src="/static/images/images/icon37.png">
+                        <span>点赞</span>
+                                    </a>
+            </div>
+
+
+
+            <div class="wzconOtherwz">
+                                    <a href="/faq/541004.html">
+                        <span>上一篇：javascript哪个数组可以合并</span>
+                    </a>
+                                    <a href="/faq/541006.html">
+                        <span>下一篇：JAVAscript实现Excel</span>
+                    </a>
+                            </div>
+            <div class="wzconShengming">
+                <img src="/static/images/images/benzhanshengming.png" />
+                <div>本文内容由网友自发贡献，版权归原作者所有，本站不承担相应法律责任。如您发现有涉嫌抄袭侵权的内容，请联系admin@php.cn</div>
+            </div>
+
+                        <div class="wzconZzwz">
+                <div class="wzconZzwztitle">作者最新文章</div>
+                <ul>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728275.html" title="phpcn{$vo.title}">PHP编程技巧：处理字符串中多个逗号的方法分享</a>
+                            </div>
+                            <div>2024-03-29 11:10:01</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728273.html" title="phpcn{$vo.title}">《射雕》穆易喜欢的礼物分享</a>
+                            </div>
+                            <div>2024-03-29 11:08:09</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728271.html" title="phpcn{$vo.title}">vivoXFold3Pro屏幕生产商是谁_vivoXFold3Pro屏幕制作商详细介绍</a>
+                            </div>
+                            <div>2024-03-29 11:06:01</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728262.html" title="phpcn{$vo.title}">摩托罗拉忘记密码该怎么办（强制解除密码的操作技巧）</a>
+                            </div>
+                            <div>2024-03-29 10:56:27</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728257.html" title="phpcn{$vo.title}">中邮 Hi nova 新机通过 3C 认证，支持 66W 快充</a>
+                            </div>
+                            <div>2024-03-29 10:51:40</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728256.html" title="phpcn{$vo.title}">闪烁之光泰坦技能怎么样 闪烁之光泰坦技能介绍</a>
+                            </div>
+                            <div>2024-03-29 10:51:35</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728252.html" title="phpcn{$vo.title}">oppo n1是什么样的手机 最新OPPO N1手机介绍</a>
+                            </div>
+                            <div>2024-03-29 10:51:06</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728246.html" title="phpcn{$vo.title}">《原神》家园洞天形态另外两种解锁方法介绍</a>
+                            </div>
+                            <div>2024-03-29 10:46:48</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728236.html" title="phpcn{$vo.title}">淘宝每日一猜3月29日答案</a>
+                            </div>
+                            <div>2024-03-29 10:41:54</div>
+                        </li>
+                                            <li>
+                            <div class="wzczzwzli">
+                                <span class="layui-badge-dots"></span>
+                                <a target="_blank" href="/faq/728231.html" title="phpcn{$vo.title}">华为nova9是曲面屏吗 附：华为Nova9手机介绍</a>
+                            </div>
+                            <div>2024-03-29 10:41:05</div>
+                        </li>
+                                    </ul>
+            </div>
+            <div class="wzconZzwz">
+                <div class="wzconZzwztitle">最新问题</div>
+                <div class="wdsyContent">
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175268.html"  target="_blank" title="单击 Vuejs 按钮时在 Blade 中打开模式" class="wdcdcTitle">单击 Vuejs 按钮时在 Blade 中打开模式</a>
+                            <a href="/wenda/175268.html" class="wdcdcCons">在我的laravelVue应用程序中，我有一个带有数据表的vue来显示一些用户记录。在我的数据表上方有一个用于添加记录的按钮。一旦用户单击按钮，它应该打开一个模式。但是我的模态框在...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉811349112来自于2024-03-28 11:50:37</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">192</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175267.html"  target="_blank" title="Axios 请求未将预期的 cookie 标头发送到 Django 服务器" class="wdcdcTitle">Axios 请求未将预期的 cookie 标头发送到 Django 服务器</a>
+                            <a href="/wenda/175267.html" class="wdcdcCons">我正在尝试在React应用程序中使用Axiospost请求将文件上传到Django服务器。服务器期望请求标头中包含CSRFcookie。该请求已包含我能找到的用于设置cookie的...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉285587590来自于2024-03-28 11:18:33</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">119</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175266.html"  target="_blank" title="使用 CSS 网格实现自定义布局：针对特定元素" class="wdcdcTitle">使用 CSS 网格实现自定义布局：针对特定元素</a>
+                            <a href="/wenda/175266.html" class="wdcdcCons">我需要使用CSS网格重现此设计，并且我尝试定位特定的网格元素以获得结果，但没有成功。这就是我目前所拥有的，我需要修复一些东西，但我想在之前得到正确的结构。附上代码片段：.grid-...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉144705065来自于2024-03-28 11:25:39</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">111</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175265.html"  target="_blank" title="将运费添加到结帐会话会导致“无效数组”异常" class="wdcdcTitle">将运费添加到结帐会话会导致“无效数组”异常</a>
+                            <a href="/wenda/175265.html" class="wdcdcCons">我正在创建一个结账会话，我想在其中添加我在Stripe仪表板中创建的运费。这是我的代码：$charge=$stripeClient-&gt;checkout-&gt;session...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉403549616来自于2024-03-28 11:04:59</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">208</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175264.html"  target="_blank" title="CSS 网格布局，自动添加行并将列宽度设置为最大网格项目宽度" class="wdcdcTitle">CSS 网格布局，自动添加行并将列宽度设置为最大网格项目宽度</a>
+                            <a href="/wenda/175264.html" class="wdcdcCons">我想要一个具有任意数量的网格项的网格布局，当一个网格项被填充时，它会自动创建一个新行，有点像：#grid{display:grid;width:256px;border:1pxso...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉818317410来自于2024-03-28 11:13:36</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">230</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175263.html"  target="_blank" title="如何将foreach添加到Controller中的Request $request中" class="wdcdcTitle">如何将foreach添加到Controller中的Request $request中</a>
+                            <a href="/wenda/175263.html" class="wdcdcCons">我有一个post路由，我想将foreach循环添加到请求中，如下所示：publicfunctionupdateProductAttrsInfo(Request$request,$i...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉803527801来自于2024-03-28 11:18:16</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">116</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175262.html"  target="_blank" title="为什么 MySQL 忽略列的数据类型长度？" class="wdcdcTitle">为什么 MySQL 忽略列的数据类型长度？</a>
+                            <a href="/wenda/175262.html" class="wdcdcCons">我正在使用MySQL8.0，并且尝试将URL存储在列中。每次我尝试插入长度超过191个字符的URL时，都会收到以下错误：1406Datatoolongforcolumn'url'a...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉798343415来自于2024-03-28 11:13:09</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">153</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175261.html"  target="_blank" title="如何将表单中的html下拉列表与php邮件连接？" class="wdcdcTitle">如何将表单中的html下拉列表与php邮件连接？</a>
+                            <a href="/wenda/175261.html" class="wdcdcCons">用php代码检查此html。这个怎么做？我是初学者。我正在制作一个带有下拉菜单的联系表单，用于选择特定医生的电子邮件地址。我正在使用模板工作，并且在PHP方面没有太多经验。HTML...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉215292716来自于2024-03-28 10:36:26</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">234</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175260.html"  target="_blank" title="如何使用Route::inertia()门面调用Controller？" class="wdcdcTitle">如何使用Route::inertia()门面调用Controller？</a>
+                            <a href="/wenda/175260.html" class="wdcdcCons">我可以像这样使用inertia提供页面：Route::inertia('/home','home');要加载包含数据库数据的页面，我必须这样做：Route::get('/terms...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉344355715来自于2024-03-28 10:41:42</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">258</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                        <div class="wdsyConDiv flexRow wdsyConDiv1">
+                        <div class="wdcdContent flexColumn">
+                            <a href="/wenda/175259.html"  target="_blank" title="改写标题：根据屏幕宽度发出 Vue.js 事件" class="wdcdcTitle">改写标题：根据屏幕宽度发出 Vue.js 事件</a>
+                            <a href="/wenda/175259.html" class="wdcdcCons">我从侧边栏中获得了以下代码。单击任何链接时，我还会向根组件发出一个事件，然后调用一个函数来隐藏侧边栏。这运行良好，但现在我希望仅当屏幕宽度小于768px时才发出事件，以便仅当我想要...</a>
+                            <div class="wdcdcInfo flexRow">
+                                <div class="wdcdcileft">
+                                    <span class="wdcdciSpan">P粉463291248来自于2024-03-28 10:37:34</span>
+                                </div>
+                                <div class="wdcdciright flexRow">
+                                    <a class="wdcdcirdz flexRow">  <img src="/static/images/images/icon37.png" class="wdcdcirdzi">0</a>
+                                    <a class="wdcdcirpl flexRow"><img src="/static/images/images/icon24.png"  class="wdcdcirpli">1</a>
+                                    <a class="wdcdcirwatch flexRow"><img src="/static/images/images/icon43.png"  class="wdcdcirwatchi">192</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wdsyConLine wdsyConLine2"></div>
+                                    </div>
+            </div>
+            <div class="wzconZt" >
+                <div class="wzczt-title">
+                    <div>相关专题</div>
+                    <a href="/faq/zt" target="_blank">更多>
+                    </a>
+                </div>
+                <div class="wzcttlist">
+                    <ul>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/dnsprobepossi"><img src="https://img.php.cn/upload/subject/202401/05/2024010509375925017.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/dnsprobepossi" class="title-a-spanl"><span>dns_probe_possible怎么解决</span> </a>
+                        </li>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/sjhdszsm"><img src="https://img.php.cn/upload/subject/202308/21/2023082116561043745.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/sjhdszsm" class="title-a-spanl"><span>手机hd是指什么</span> </a>
+                        </li>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/cmdzmyglysfyx"><img src="https://img.php.cn/upload/subject/202308/28/2023082813485676478.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/cmdzmyglysfyx" class="title-a-spanl"><span>cmd怎么以管理员身份运行</span> </a>
+                        </li>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/xnhbjyptynx"><img src="https://img.php.cn/upload/subject/202403/07/2024030715305934315.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/xnhbjyptynx" class="title-a-spanl"><span>虚拟货币交易平台有哪些</span> </a>
+                        </li>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/kb4012212gx"><img src="https://img.php.cn/upload/subject/202310/18/2023101811100299592.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/kb4012212gx" class="title-a-spanl"><span>kb4012212 更新失败怎么办</span> </a>
+                        </li>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/xenserver"><img src="https://img.php.cn/upload/subject/202306/29/2023062913362413987.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/xenserver" class="title-a-spanl"><span>xenserver</span> </a>
+                        </li>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/cssgdtys"><img src="https://img.php.cn/upload/subject/202309/12/2023091210300552819.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/cssgdtys" class="title-a-spanl"><span>CSS滚动条样式</span> </a>
+                        </li>
+                                                <li class="ul-li">
+                            <a target="_blank" href="/faq/yookeqbdz"><img src="https://img.php.cn/upload/subject/202403/07/2024030714425623897.jpg?x-oss-process=image/resize,m_fill,h_145,w_220" /> </a>
+                            <a target="_blank" href="/faq/yookeqbdz" class="title-a-spanl"><span>易欧oke钱包地址</span> </a>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+<div class="wzcongg"><script type="text/javascript" src="https://sw.php.cn/hezuo/7236a960e9805fe5337a40a36e76376b.js" ></script></div>
+        </div>
+    </div>
+    <div class="phpwzright">
+	            <div class="wzrOne" style="margin-bottom:31px; padding:0px; width: 366px;">
+        <script type="text/javascript" src="https://sw.php.cn/hezuo/7d4897500e1f8454c8cecc43e5d92949.js" ></script>
+        <!-- <script type="text/javascript" smua="d=p&s=b&u=u2839468&w=366&h=270" src="https://www.nkscdn.com/smu/o.js"></script> -->
+        </div>
+		        <div class="wzrOne">
+            <div class="wzroTitle">热门推荐</div>
+            <div class="wzroList">
+                <ul>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/718676.html">java和javascript的区别和联系</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/714906.html">Angular与React：2024年前端选择哪个</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/705050.html">vue引用js文件</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/705040.html">vue.js怎么带参数跳转</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/705004.html">vue.js为什么报错</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/632849.html">localstorage为什么失效很快</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/664699.html">vue2和vue3双向绑定区别</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/664706.html">vue3的生命周期有哪些</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/659595.html">JavaScript箭头函数中的this详解</a>
+                                </div>
+                            </li>
+                                                <li>
+                                <div class="wzczzwzli">
+                                    <span class="layui-badge-dots wzrolr"></span>
+                                    <a style="height: auto;" href="/faq/659470.html">split怎么截取字符串</a>
+                                </div>
+                            </li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="wzrTwo">
+            <!--<script type="text/javascript" src="https://sw.php.cn/hezuo/3b9658c68b4a51ac91d4414a910efa45.js" ></script>-->
+        </div>
+		<div class="wzrTwo">
+                    <script type="text/javascript" src="https://sw.php.cn/hezuo/08af4bd5aaa6c69c3f76add681d83973.js" ></script>
+        		
+		</div>
+
+        <div class="wzrThree">
+            <div class="wzrthree-title">
+                <div>热门教程</div>
+                <a target="_blank" href="https://www.php.cn/k.html">更多>
+                </a>
+            </div>
+            <div class="wzrthreelist">
+                <div class="wzrthreeTab">
+                    <div class="check tabdiv" data-id="one">相关推荐 <div></div></div>
+                    <div class="tabdiv" data-id="two">热门推荐<div></div></div>
+                    <div class="tabdiv" data-id="three">最新课程<div></div></div>
+                </div>
+                <ul class="one">
+                <script type="text/javascript" src="https://sw.php.cn/hezuo/12c9e4b5f2a532598274ebbfb142fd5f.js" ></script>
+                                                <li>
+                                <a target="_blank" href="/course/639.html" title="phpStudy极速入门视频教程" class="wzrthreelaimg">
+                                    <img src="https://img.php.cn/upload/course/000/000/068/62611ef88fcec821.jpg" alt="phpStudy极速入门视频教程"/>
+                                </a>
+                                <div class="wzrthree-right">
+                                    <a target="_blank" href="/course/639.html">phpStudy极速入门视频教程</a>
+                                    <div class="wzrthreerb">
+                                        <div >513007次学习</div>
+                                                                                    <a class="courseICollection" data-id="639"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                            </div>
+                                </div>
+                            </li>
+                                                        <li>
+                                <a target="_blank" href="/course/372.html" title="独孤九贱(1)_HTML5视频教程" class="wzrthreelaimg">
+                                    <img src="https://img.php.cn/upload/course/000/000/001/5d1c6ddbecdb1707.jpg" alt="独孤九贱(1)_HTML5视频教程"/>
+                                </a>
+                                <div class="wzrthree-right">
+                                    <a target="_blank" href="/course/372.html">独孤九贱(1)_HTML5视频教程</a>
+                                    <div class="wzrthreerb">
+                                        <div >594204次学习</div>
+                                                                                    <a class="courseICollection" data-id="372"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                            </div>
+                                </div>
+                            </li>
+                                                        <li>
+                                <a target="_blank" href="/course/486.html" title="独孤九贱(5)_ThinkPHP5视频教程" class="wzrthreelaimg">
+                                    <img src="https://img.php.cn/upload/course/000/000/001/5d1c6e053065c808.jpg" alt="独孤九贱(5)_ThinkPHP5视频教程"/>
+                                </a>
+                                <div class="wzrthree-right">
+                                    <a target="_blank" href="/course/486.html">独孤九贱(5)_ThinkPHP5视频教程</a>
+                                    <div class="wzrthreerb">
+                                        <div >1185867次学习</div>
+                                                                                    <a class="courseICollection" data-id="486"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                            </div>
+                                </div>
+                            </li>
+                                            </ul>
+                <ul class="two" style="display: none;">
+                                            <li>
+                            <a target="_blank" href="/course/812.html" title="最新ThinkPHP 5.1全球首发视频教程(60天成就PHP大牛线上培训班课)" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/041/620debc3eab3f377.jpg" alt="最新ThinkPHP 5.1全球首发视频教程(60天成就PHP大牛线上培训班课)"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/812.html">最新ThinkPHP 5.1全球首发视频教程(60天成就PHP大牛线上培训班课)</a>
+                                <div class="wzrthreerb">
+                                    <div >1371804次学习</div>
+                                                                            <a class="courseICollection" data-id="812"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/379.html" title="独孤九贱(4)_PHP视频教程" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/001/5d1c6dfc9eb09885.jpg" alt="独孤九贱(4)_PHP视频教程"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/379.html">独孤九贱(4)_PHP视频教程</a>
+                                <div class="wzrthreerb">
+                                    <div >1188044次学习</div>
+                                                                            <a class="courseICollection" data-id="379"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/801.html" title="PHP实战天龙八部之仿爱奇艺电影网站" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/001/5d2426f409839992.jpg" alt="PHP实战天龙八部之仿爱奇艺电影网站"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/801.html">PHP实战天龙八部之仿爱奇艺电影网站</a>
+                                <div class="wzrthreerb">
+                                    <div >736579次学习</div>
+                                                                            <a class="courseICollection" data-id="801"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/170.html" title="PHP入门视频教程之一周学会PHP" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/068/6253ddf274262146.png" alt="PHP入门视频教程之一周学会PHP"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/170.html">PHP入门视频教程之一周学会PHP</a>
+                                <div class="wzrthreerb">
+                                    <div >1438936次学习</div>
+                                                                            <a class="courseICollection" data-id="170"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/593.html" title="ThinkPHP5实战之[教学管理系统]" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/068/6253d87459486427.png" alt="ThinkPHP5实战之[教学管理系统]"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/593.html">ThinkPHP5实战之[教学管理系统]</a>
+                                <div class="wzrthreerb">
+                                    <div >695877次学习</div>
+                                                                            <a class="courseICollection" data-id="593"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                    </ul>
+                <ul class="three" style="display: none;">
+                                            <li>
+                            <a target="_blank" href="/course/1641.html" title="微信小程序开发之API篇" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/067/65d41178b1265633.png" alt="微信小程序开发之API篇"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/1641.html">微信小程序开发之API篇</a>
+                                <div class="wzrthreerb">
+                                    <div >1255次学习</div>
+                                                                            <a class="courseICollection" data-id="1641"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/1640.html" title="Webpack4.x---十天技能课堂" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/067/65bc9ae48d603792.png" alt="Webpack4.x---十天技能课堂"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/1640.html">Webpack4.x---十天技能课堂</a>
+                                <div class="wzrthreerb">
+                                    <div >1786次学习</div>
+                                                                            <a class="courseICollection" data-id="1640"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/1639.html" title="Bootstrap4.x---十天精品课堂" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/067/65b8a528651e3372.png" alt="Bootstrap4.x---十天精品课堂"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/1639.html">Bootstrap4.x---十天精品课堂</a>
+                                <div class="wzrthreerb">
+                                    <div >2119次学习</div>
+                                                                            <a class="courseICollection" data-id="1639"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/1638.html" title="ECMAScript6 / ES6---十天技能课堂" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/067/65b34512deb3a468.png" alt="ECMAScript6 / ES6---十天技能课堂"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/1638.html">ECMAScript6 / ES6---十天技能课堂</a>
+                                <div class="wzrthreerb">
+                                    <div >2250次学习</div>
+                                                                            <a class="courseICollection" data-id="1638"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                            <li>
+                            <a target="_blank" href="/course/1637.html" title="Laravel---API接口" class="wzrthreelaimg">
+                                <img src="https://img.php.cn/upload/course/000/000/067/65af62a6edaf0369.png" alt="Laravel---API接口"/>
+                            </a>
+                            <div class="wzrthree-right">
+                                <a target="_blank" href="/course/1637.html">Laravel---API接口</a>
+                                <div class="wzrthreerb">
+                                    <div >881次学习</div>
+                                                                            <a class="courseICollection" data-id="1637"><img src="/static/images/images/icon-small-nocollect.png" class="nofollow">收藏</a>
+                                                                    </div>
+                            </div>
+                        </li>
+                                    </ul>
+            </div>
+            <script>
+                $('.wzrthreeTab>div').click(function(e){
+                    $('.wzrthreeTab>div').removeClass('check')
+                    $(this).addClass('check')
+                    $('.wzrthreelist>ul').css('display','none')
+                    $('.'+e.currentTarget.dataset.id).show()
+                })
+            </script>
+        </div>
+		        <div class="wzrTwo">
+        <script type="text/javascript" smua="d=p&s=b&u=u2839468&w=366&h=270" src="https://www.nkscdn.com/smu/o.js"></script> </div>
+		        <div class="wzrFour">
+            <div class="wzrfour-title">
+                <div>最新下载</div>
+                <a href="/xiazai">更多>
+                </a>
+            </div>
+                            <div class="swiper-container  sjyx_banSwiperwz">
+                    <ul class="swiper-wrapper">
+                                                    <li class="swiper-slide">
+                                <a href="/xiazai/code/8328" target="_blank" title="家居装潢清洁维修服务公司网站模板">
+                                    <img src="https://img.php.cn/upload/webcode/000/000/009/170921160869278.jpg?x-oss-process=image/resize,m_fill,h_220,w_335" onerror="this.onerror='';this.src='/static/images/moren/morentu.png'" alt="家居装潢清洁维修服务公司网站模板">
+                                </a>
+                            </li>
+                                                <div class="clear"></div>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+                        <script>
+                $(document).ready(function(){
+                    var sjyx_banSwiper = new Swiper(".sjyx_banSwiperwz",{
+                        speed:1000,
+                        autoplay:{
+                            delay:3500,
+                            disableOnInteraction: false,
+                        },
+                        pagination:{
+                            el:'.sjyx_banSwiperwz .swiper-pagination',
+                            clickable :false,
+                        },
+                        loop:true
+                    })
+                })
+            </script>
+            <div class="wzrfourList">
+                <div class="wzrfourlTab">
+                    <div class="check" data-id="onef">网站特效 <div></div></div>
+                    <div class="" data-id="twof">网站源码<div></div></div>
+                    <div class="" data-id="threef">网站素材<div></div></div>
+                    <div class="" data-id="fourf">前端模板<div></div></div>
+                </div>
+                <ul class="onef">
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="jQuery企业留言表单联系代码" href="/xiazai/js/8071">[表单按钮] jQuery企业留言表单联系代码</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="HTML5 MP3音乐盒播放特效" href="/xiazai/js/8070">[播放器特效] HTML5 MP3音乐盒播放特效</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="HTML5炫酷粒子动画导航菜单特效" href="/xiazai/js/8069">[菜单导航] HTML5炫酷粒子动画导航菜单特效</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="jQuery可视化表单拖拽编辑代码" href="/xiazai/js/8068">[表单按钮] jQuery可视化表单拖拽编辑代码</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="VUE.JS仿酷狗音乐播放器代码" href="/xiazai/js/8067">[播放器特效] VUE.JS仿酷狗音乐播放器代码</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="经典html5推箱子小游戏" href="/xiazai/js/8066">[html5特效] 经典html5推箱子小游戏</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="jQuery滚动添加或减少图片特效" href="/xiazai/js/8065">[图片特效] jQuery滚动添加或减少图片特效</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a target="_blank"  title="CSS3个人相册封面悬停放大特效" href="/xiazai/js/8064">[相册特效] CSS3个人相册封面悬停放大特效</a>
+                            </div>
+                        </li>
+                                    </ul>
+                <ul class="twof" style="display:none">
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7647" title="有机果蔬供应商网页模板 Bootstrap5" target="_blank">[Bootstrap模板] 有机果蔬供应商网页模板 Bootstrap5</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7646" title="Bootstrap3多功能数据信息后台管理响应式网页模板-Novus" target="_blank">[后端模板] Bootstrap3多功能数据信息后台管理响应式网页模板-Novus</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7645" title="房产资源服务平台网页模板 Bootstrap5" target="_blank">[Bootstrap模板] 房产资源服务平台网页模板 Bootstrap5</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7644" title="简约简历资料网页模板 Bootstrap4" target="_blank">[Bootstrap模板] 简约简历资料网页模板 Bootstrap4</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7639" title="bootstrap响应式宽屏图书教育网站模板-DREAMLIFE" target="_blank">[Bootstrap模板] bootstrap响应式宽屏图书教育网站模板-DREAMLIFE</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7634" title="MAC风格响应式蓝色企业CMS后台管理系统模版" target="_blank">[后端模板] MAC风格响应式蓝色企业CMS后台管理系统模版</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7632" title="响应式渐变大气后台管理系统网站模板-usinessbox" target="_blank">[后端模板] 响应式渐变大气后台管理系统网站模板-usinessbox</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/7629" title="响应式蔬菜水果商店网站模板-Organio" target="_blank">[Bootstrap模板] 响应式蔬菜水果商店网站模板-Organio</a>
+                            </div>
+                        </li>
+                                    </ul>
+                <ul class="threef" style="display:none">
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3078"  target="_blank"  title="可爱的夏天元素矢量素材(EPS+PNG)">[网站素材] 可爱的夏天元素矢量素材(EPS+PNG)</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3077"  target="_blank"  title="四个红的的 2023 毕业徽章矢量素材(AI+EPS+PNG)">[网站素材] 四个红的的 2023 毕业徽章矢量素材(AI+EPS+PNG)</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3076"  target="_blank"  title="唱歌的小鸟和装满花朵的推车设计春天banner矢量素材(AI+EPS)">[网站素材] 唱歌的小鸟和装满花朵的推车设计春天banner矢量素材(AI+EPS)</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3075"  target="_blank"  title="金色的毕业帽矢量素材(EPS+PNG)">[网站素材] 金色的毕业帽矢量素材(EPS+PNG)</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3074"  target="_blank"  title="黑白风格的山脉图标矢量素材(EPS+PNG)">[网站素材] 黑白风格的山脉图标矢量素材(EPS+PNG)</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3073"  target="_blank"  title="不同颜色披风和不同姿势的超级英雄剪影矢量素材(EPS+PNG)">[网站素材] 不同颜色披风和不同姿势的超级英雄剪影矢量素材(EPS+PNG)</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3072"  target="_blank"  title="扁平风格的植树节banner矢量素材(AI+EPS)">[网站素材] 扁平风格的植树节banner矢量素材(AI+EPS)</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/sucai/3071"  target="_blank"  title="九个漫画风格的爆炸聊天气泡矢量素材(EPS+PNG)">[网站素材] 九个漫画风格的爆炸聊天气泡矢量素材(EPS+PNG)</a>
+                            </div>
+                        </li>
+                                    </ul>
+                <ul class="fourf" style="display:none">
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8328"  target="_blank" title="家居装潢清洁维修服务公司网站模板">[前端模板] 家居装潢清洁维修服务公司网站模板</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8327"  target="_blank" title="清新配色个人求职简历引导页模板">[前端模板] 清新配色个人求职简历引导页模板</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8326"  target="_blank" title="设计师创意求职简历网页模板">[前端模板] 设计师创意求职简历网页模板</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8325"  target="_blank" title="现代工程建筑公司网站模板">[前端模板] 现代工程建筑公司网站模板</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8324"  target="_blank" title="教育服务机构响应式HTML5模板">[前端模板] 教育服务机构响应式HTML5模板</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8323"  target="_blank" title="网上电子书店商城网站模板">[前端模板] 网上电子书店商城网站模板</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8322"  target="_blank" title="IT技术解决互联网公司网站模板">[前端模板] IT技术解决互联网公司网站模板</a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="wzrfourli">
+                                <span class="layui-badge-dots wzrflr"></span>
+                                <a href="/xiazai/code/8321"  target="_blank" title="紫色风格外汇交易服务网站模板">[前端模板] 紫色风格外汇交易服务网站模板</a>
+                            </div>
+                        </li>
+                                    </ul>
+            </div>
+            <script>
+                $('.wzrfourlTab>div').click(function(e){
+                    $('.wzrfourlTab>div').removeClass('check')
+                    $(this).addClass('check')
+                    $('.wzrfourList>ul').css('display','none')
+                    $('.'+e.currentTarget.dataset.id).show()
+                })
+            </script>
+        </div>
+    </div>
+</div>
+<!--主体 end-->
+<!--底部-->
+<div class="phpFoot">
+    <div class="phpFootIn">
+        <div class="phpFootCont">
+            <div class="phpFootLeft">
+                <dl>
+                    <dt>
+                        <a href="/about/us.html" rel="nofollow" target="_blank" title="关于我们" class="cBlack">关于我们</a>
+                        <a href="/about/disclaimer.html" rel="nofollow" target="_blank" title="免责申明" class="cBlack">免责申明</a>
+                        <a href="javascript:;" rel="nofollow" onclick="advice_data(99999999,'意见反馈')"   title="意见反馈" class="cBlack">意见反馈</a>
+                        <a href="https://www.php.cn/teacher.html" rel="nofollow"  target="_blank" title="讲师合作" class="cBlack">讲师合作</a>
+                        <a href="https://www.php.cn/blog/detail/20304.html" rel="nofollow" target="_blank" title="广告合作" class="cBlack">广告合作</a>
+                        <!--<a href="javascript:;" target="_blank" title="其他合作" class="cBlack">其他合作</a>-->
+                        <a href="/new/"   target="_blank" title="最新文章列表" class="cBlack">最新更新</a>
+                                                <div class="clear"></div>
+                    </dt>
+                    <dd class="cont1">php中文网：公益在线php培训，帮助PHP学习者快速成长！</dd>
+                    <dd class="cont2">
+                      <span class="ylwTopBox">
+                        <a href="javascript:;"  class="cBlack"><b class="icon1"></b>关注服务号</a>
+                        <em style="display:none;" class="ylwTopSub">
+                          <p>微信扫码<br/>关注PHP中文网服务号</p>
+                          <img src="/static/images/examples/text16.png"/>
+                        </em>
+                      </span>
+                        <span class="ylwTopBox">
+                        <a href="tencent://message/?uin=27220243&Site=www.php.cn&Menu=yes" target="_blank" class="cBlack"><b class="icon2"></b>技术交流群</a>
+                        <em style="display:none;" class="ylwTopSub">
+                          <p>QQ扫码<br/>加入技术交流群</p>
+                          <img src="/static/images/examples/text18.png"/>
+                        </em>
+                      </span>
+                        <div class="clear"></div>
+                    </dd>
+                </dl>
+                <div class="ylwTopBox phpAppBox" style="top: 0px; right: 20px;">
+                <div class="phpAppTitle"><a href="/app/" style="color:#cccccc;">app下载</a></div>
+                <div class="phpAppSub ylwTopSub" style="display: none;">
+                  <img src="https://www.php.cn/static/images/examples/text14.png"/>
+                  <p>扫描下载App</p>
+                </div>
+              </div>
+            </div>
+            <div class="phpFootRight">
+                <div class="phpFootMsg">
+                    <span><img src="/static/images/examples/text17.png"/></span>
+                    <dl>
+                        <dt>PHP中文网订阅号</dt>
+                        <dd>每天精选资源文章推送</dd>
+                    </dl>
+                </div>
+                <div class="phpFootMsg">
+                    <span><img src="/static/images/examples/text14.png"/></span>
+                    <dl>
+                        <dt>PHP中文网APP</dt>
+                        <dd>随时随地碎片化学习</dd>
+                    </dl>
+                </div>
+                <div class="phpFootMsg">
+                    <span><img src="/static/images/dy.png"/></span>
+                    <dl>
+                        <dt>PHP中文网抖音号</dt>
+                        <dd>发现有趣的</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phpFootCode">
+        <div class="phpFootCodeIn"><p>Copyright 2014-2024 <a href="https://www.php.cn/" target="_blank">https://www.php.cn/</a> All Rights Reserved | php.cn | <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">湘ICP备2023035733号</a></p><a href="http://www.beian.gov.cn/portal/index.do" rel="nofollow" target="_blank"><b></b></a></div>
+    </div>
+</div>
+<input type="hidden" id="verifycode" value="/captcha.html">
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c0e685c8743351838d2a7db1c49abd56";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script>layui.use(['element', 'carousel'], function () {var element = layui.element;$ = layui.jquery;var carousel = layui.carousel;carousel.render({elem: '#test1', width: '100%', height: '330px', arrow: 'always'});$.getScript('/static/js/jquery.lazyload.min.js', function () {$("img").lazyload({placeholder: "/static/images/load.jpg", effect: "fadeIn", threshold: 200, skip_invisible: false});});});</script>
+
+<span class="layui-hide"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1280886301&web_id=1280886301"></script></span>
+
+<!--底部 end-->
+<script>
+    $(function() {
+        //直播倒计时
+        $(".liveitem").each(function(){
+            timer(this);
+        })
+        function timer(obj){
+            var intDiff = $(obj).data("countdown");
+            window.setInterval(function(){
+                var day=0,
+                    hour=0,
+                    minute=0,
+                    second=0;//时间默认值
+                if(intDiff > 0){
+                    day = Math.floor(intDiff / (60 * 60 * 24));
+                    hour = Math.floor(intDiff / (60 * 60)) - (day * 24);
+                    minute = Math.floor(intDiff / 60) - (day * 24 * 60) - (hour * 60);
+                    second = Math.floor(intDiff) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
+                }else{
+                    $(obj).find(".phpZbktBg").remove();
+                    return;
+                }
+                if (hour <= 9) hour = '0' + hour;
+                if (minute <= 9) minute = '0' + minute;
+                if (second <= 9) second = '0' + second;
+                $(obj).find('.day_show').html(day+"");
+                $(obj).find('.hour_show').html('<s id="h"></s>'+hour+'');
+                $(obj).find('.minute_show').html('<s></s>'+minute+'');
+                $(obj).find('.second_show').html('<s></s>'+second+'');
+                intDiff--;
+            }, 1000);
+        }
+    });
+</script>
+<script src="/static/ueditor/third-party/SyntaxHighlighter/shCore.js?1711682066"></script>
+<script>article_status = 465014;</script>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script src="https://vdse.bdstatic.com//search-video.v1.min.js"></script>
+<input type="hidden" id="verifycode" value="/captcha.html">
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/layui/layui.js"></script>
+<script src="/static/js/common_new.js?2.1" ></script>
+<script type="text/javascript" src="/static/js/global.min.js?5.5.33"></script>
+<script>var _hmt = _hmt || [];(function(){var hm = document.createElement("script");hm.src="//hm.baidu.com/hm.js?c0e685c8743351838d2a7db1c49abd56";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();(function(){var bp = document.createElement('script');var curProtocol = window.location.protocol.split(':')[0];if(curProtocol === 'https'){bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';}else{bp.src = 'http://push.zhanzhang.baidu.com/push.js';};var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(bp, s);})();</script>
+<script type="text/javascript" src="/static/js/jquery.cookie.js"></script>
+<script>var topadshow = $.cookie('phpcndatatopadshows');if(!topadshow&&1==2){$('.topimages').show();var topobj = $('.topimages').find('.time');var topobj_day = $('.topimages .time').find('.day');var topobj_hours = $('.topimages .time').find('.hours');var topobj_minutes = $('.topimages .time').find('.minutes');var topobj_second = $('.topimages .time').find('.second');var topday = parseInt(topobj_day.html());var tophours = parseInt(topobj_hours.html());var topminutes = parseInt(topobj_minutes.html());var topsecond = parseInt(topobj_second.html());setInterval(function(){if(topsecond > 0){topsecond = topsecond-1;}else{if(topminutes > 0){topminutes = topminutes-1;topsecond = 59;}else{if(tophours > 0){tophours = tophours-1;topminutes = 59;topsecond = 59;}else{if(topday > 0){topday = topday -1;tophours = 23;topminutes = 59;topsecond = 59;}else{topobj.html("<p><span>活动已结束</span></p>");}}}}topobj_second.html(topsecond);topobj_minutes.html(topminutes);topobj_hours.html(tophours);topobj_day.html(topday);},1000);}$('.topimages .layui-icon-close').click(function(){$.cookie('phpcndatatopadshows',1,{expires:7});$('.topimages').hide();});</script>
+<link rel='stylesheet' id='_main-css' href='/static/css/viewer.min.css?2' type='text/css' media='all'/>
+<script type='text/javascript' src='/static/js/viewer.min.js?1'></script>
+<script type='text/javascript' src='/static/js/jquery-viewer.min.js'></script>
+<style>
+        .content img{max-width:80%;}
+        .copy-button {
+            padding: 5px 10px;
+            background-color: #666;
+            border: none;
+            color: #FFF;
+            font-size: 12px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: relative;
+            top: 33px;
+    right: 5px;
+    z-index: 99;
+    float: right;
+        }
+        .copy-button:hover {
+            background-color: #fc3930;
+        }
+    </style>
+<script>
+    $(document).ready(function(){
+        $('#gongzhonghao').hover(function(){
+            $('#gzh').show();
+        },function(){
+            $('#gzh').hide();
+        })
+    })
+</script>
+<script>
+    layui.use(['jquery','layer'], function(){
+        $('.test-iframe-handle').click(function(){
+                layer.open({
+                type: 2,
+                area: ['1300px', '750px'],
+                content: 'https://www.php.cn/help/ask?q=html%E6%80%8E%E4%B9%88%E5%B1%85%E4%B8%AD%E5%9B%BE%E7%89%87',
+                fixed: true, // 不固定
+                //maxmin: true,
+                shadeClose: true,
+                title:"智能小助手",
+                btnAlign: 'c',
+                yes: function(index, layero){
+                    // 获取 iframe 的窗口对象
+                    var iframeWin =  window[layero.find('iframe')[0]['name']];
+                    var elemMark = iframeWin.$('#mark'); // 获得 iframe 中某个输入框元素
+                    var value = elemMark.val();
+                    if($.trim(value) === '') return elemMark.focus();
+                    // 显示获得的值
+                    layer.msg('获得 iframe 中的输入框标记值：'+ value);
+                }
+                });
+            })
+        var is_login = "0";
+        var show = 0;
+        var ceng = getCookie('ceng');
+        //文章下拉弹出登录
+        // if(is_login == 0 && !ceng)
+        // {
+        //     window.onscroll = function(){
+        //         var t = document.documentElement.scrollTop || document.body.scrollTop;
+        //         var top_div = document.getElementById( "top_div" );
+        //         if( t >= 2500 && show == 0) {
+        //             show = 1
+        //             setCookie('ceng',1,1);
+        //             $(document).trigger("api.loginpopbox");
+        //         }
+        //     }
+        // }
+        //未登录复制显示登录按钮
+        if(is_login == 0)
+        {
+            $(".code").hover(function(){
+                $(this).find('.contentsignin').show();
+            },function(){
+                $(this).find('.contentsignin').hide();
+            });
+            //不给复制
+            $('.code').bind("cut copy paste",function(e) {
+                e.preventDefault();
+            });
+            $('.code .contentsignin').click(function(){
+                $(document).trigger("api.loginpopbox");
+            })
+        }else
+        {
+            // 获取所有的 <pre> 元素
+    var preElements = document.querySelectorAll('pre');
+// 遍历每个 <pre> 元素
+preElements.forEach(function(preElement) {
+    // 创建复制按钮
+    var copyButton = document.createElement('button');
+    copyButton.className = 'copy-button';
+    copyButton.textContent = '复制';
+    // 添加点击事件处理程序
+    copyButton.addEventListener('click', function() {
+        // 获取当前按钮所属的 <pre> 元素中的文本内容
+        var textContent = preElement.textContent.trim();
+        // 创建一个临时 textarea 元素并设置其值为 <pre> 中的文本内容
+        var tempTextarea = document.createElement('textarea');
+        tempTextarea.value = textContent;
+        // 将临时 textarea 添加到文档中
+        document.body.appendChild(tempTextarea);
+        // 选中临时 textarea 中的文本内容并执行复制操作
+        tempTextarea.select();
+        document.execCommand('copy');
+        // 移除临时 textarea 元素
+        document.body.removeChild(tempTextarea);
+        // 更新按钮文本为 "已复制"
+        this.textContent = '已复制';
+    });
+    // 将按钮添加到 <pre> 元素前面
+    preElement.parentNode.insertBefore(copyButton, preElement);
+});
+        }
+    })
+    function setCookie(name,value,iDay){      //name相当于键，value相当于值，iDay为要设置的过期时间（天）
+        var oDate = new Date();
+        oDate.setDate(oDate.getDate() + iDay);
+        document.cookie = name + '=' + value + ';path=/;domain=.php.cn;expires=' + oDate;
+    }
+    function getCookie(name) {
+        var cookieArr = document.cookie.split(";");
+        for(var i = 0; i < cookieArr.length; i++) {
+            var cookiePair = cookieArr[i].split("=");
+            if(name == cookiePair[0].trim()) {
+                return decodeURIComponent(cookiePair[1]);
+            }
+        }
+        return null;
+    }
+    window.onload = function() {
+        // 在这里引用需要延迟加载的 JavaScript 文件
+        var script = document.createElement('script');
+        script.src = 'https://cdn.wwads.cn/js/makemoney.js';
+        document.body.appendChild(script);
+    };
+    function aiask(ask){
+        layer.open({
+            type: 2,
+            area: ['1300px', '750px'],
+            content: 'https://www.php.cn/help/ask?q='+encodeURIComponent(ask),
+            fixed: true, // 不固定
+            //maxmin: true,
+            shadeClose: true,
+            title:"智能小助手",
+            btnAlign: 'c',
+            yes: function(index, layero){
+                // 获取 iframe 的窗口对象
+                var iframeWin =  window[layero.find('iframe')[0]['name']];
+                var elemMark = iframeWin.$('#mark'); // 获得 iframe 中某个输入框元素
+                var value = elemMark.val();
+                if($.trim(value) === '') return elemMark.focus();
+                // 显示获得的值
+                layer.msg('获得 iframe 中的输入框标记值：'+ value);
+            }
+        });
+    }
+
+</script>
+<!--底部浮动层-->
+<!--
+    <div class="phpFudong">
+        <div class="phpFudongIn">
+            <div class="phpFudongImg"></div>
+            <div class="phpFudongXue">登录PHP中文网，和优秀的人一起学习！</div>
+            <div class="phpFudongQuan">全站<span>2000+</span>教程免费学</div>
+            <div class="phpFudongCode"><a href="javascript:;" id="login" title="微信扫码登录">微信扫码登录</a></div>
+            <div class="phpGuanbi" onclick="$('.phpFudong').hide();"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+--><!--底部浮动层 end-->
+<!--侧导航-->
+<style>
+    .layui-fixbar{display: none;}
+</style>
+<div class="phpSdhBox">
+    <li>
+        <div class="phpSdhIn">
+            <div class="phpSdhTitle">
+                <a href="/k24.html" target="_blank" class="hover" title="精品班">
+                    <b class="icon1"></b>
+                    <p>精品班</p>
+                </a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="phpSdhIn">
+            <div class="phpSdhTitle">
+                <a href="https://www.php.cn/blog/detail/1047189.html" target="_blank">
+                    <b class="icon2"></b>
+                    <p>技术支持</p>
+                </a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="phpSdhIn ylwTopBox">
+            <div class="phpSdhTitle">
+                <a href="javascript:;">
+                    <b class="icon3"></b>
+                    <p>技术咨询</p>
+                </a>
+            </div>
+            <div class="phpSdhSub ylwTopSub" style="display: none;">
+                <img src="/static/images/examples/wechat1.png"/>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="phpSdhIn">
+            <div class="phpSdhTitle">
+                <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=viuU-z9Xo9LwNd89_8dLk8RImMY36iZM&authKey=qJ1YCc4xHY1QNXePak2HlTk14Eav31wM7auWA8SkjkEBUYg5cg0rXNw3YajrNfxL&noverify=0&group_code=730587727" target="_blank">
+                    <b class="icon4"></b>
+                    <p>学习群</p>
+                </a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="phpSdhIn">
+            <div class="phpSdhTitle">
+                <a href="/vip.html"  class="hover" target="_blank">
+                    <b class="icon5"></b>
+                    <p>会员优惠</p>
+                </a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="phpSdhIn">
+            <div class="phpSdhTitle">
+                <a href="#">
+                    <b class="icon6"></b>
+                    <p>返回顶部</p>
+                </a>
+            </div>
+        </div>
+    </li>
+</div>
+<!--侧导航 end-->
+<script src="https://sw.php.cn/hezuo/878d86723f149602730171fd9c17fe8b.js"></script>
+</body>
+</html>
